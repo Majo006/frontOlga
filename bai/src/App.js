@@ -10,7 +10,6 @@ import AgregarCita from './vistas/Citas/AgregarCita.js';
 import FooterComponent from './components/FooterComponent.js';
 import Nosotros from './nosotros.js';
 import RegistrationForm from './registro.js';
-import dashboarUsuario from './dashboarUsuario.js';
 import Home from './Home.js';
 import Paginap from './paginap.js';
 import HeaderPrincipalComponent from './components/HeaderPrincipalComponent.js';
@@ -28,12 +27,12 @@ function App() {
        
       <BrowserRouter>
         <Routes>
+          <Route path='/home' element={<Home/>}></Route>
           <Route path="/" element={<Nosotros/>} />
           <Route path='/nosotros' element={<Nosotrosp/>}/>
           <Route path='/Header' element={<HeaderComponents />} />
           <Route path="/Dashboard" element={<Dashboard />} />
           <Route path='/AgregarUsuario' element={<AgregarUsuario />} />
-          <Route path='/dashboarusuario' element={<dashboarUsuario />} />
           <Route path='/listausuario' element={<ListUsuario />} />
           <Route path='/login' element={<LoginForm />} />
           <Route path='/registro' element={<RegistrationForm />} />

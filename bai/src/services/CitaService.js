@@ -12,5 +12,4 @@ class CitaService {
       }
 }
 
-
 export default new CitaService();

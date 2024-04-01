@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Servicio from './Servicios';
 import './servicios.css';
 import cabello from './img/cabello.jpeg';
